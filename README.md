@@ -4,7 +4,9 @@ a fun little way to remind your loved ones to always read scripts before blindly
 
 this script is an educational tool that *appears to be* a simple malicious attack, but will not cause any actual damage.
 
-- displays a growing list of 'deleted' files starting from the filesystem root
+- displays a growing list of 'deleted' files starting from the filesystem root (nothing is actually deleted)
 - claims to be running 'rm -rf /' as root (this is not the case)
 - introduces random jitter to increase believability
 - blocks attempts to SIGTERM and SIGINT in a fun way
+
+to kill the process, you can close the terminal session, or get the PID of the process with `ps aux | grep run.sh` and then send SIGKILL with `kill -9 <the PID>`
