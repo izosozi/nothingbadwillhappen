@@ -2,6 +2,9 @@
 
 # ...and that's why you always read scripts before piping them to bash
 
+# by izosozi
+# https://github.com/izosozi/nothingbadwillhappen
+
 DELAY_MS=100;
 DAMPENER=20;
 TARGET_DIR=/;
