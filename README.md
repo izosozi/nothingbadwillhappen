@@ -9,4 +9,10 @@ this script is an educational tool that *appears to be* a simple malicious attac
 - introduces random jitter to increase believability
 - blocks attempts to SIGTERM and SIGINT in a fun way
 
+for the full educational experience, run:
+
+```sh
+curl https://raw.githubusercontent.com/izosozi/nothingbadwillhappen/refs/heads/main/run.sh | bash
+```
+
 to kill the process, you can close the terminal session, or get the PID of the process with `ps aux | grep run.sh` and then send SIGKILL with `kill -9 <the PID>`
